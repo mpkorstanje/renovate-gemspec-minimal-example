@@ -12,7 +12,7 @@
     {
       "fileMatch": ["^*.gemspec"],
       "matchStrings": [
-        "\\s*add_(:?(?<depType>.*?)_)?dependency\\s*['\"](?<depName>[^'\"]+)['\"]\\s*,\\s*(?<currentValue>(['\"])[^'\"]+['\"](\\\\s*,\\\\s*['\"][^'\"]+['\"])?))?"
+        "\\s*add_(:?(?<depType>.*?)_)?dependency\\s*['\"](?<depName>[^'\"]+)['\"]\\s*,\\s*(?<currentValue>(['\"])[^'\"]+['\"](\\s*,\\s*['\"][^'\"]+['\"])?))?"
       ],
       "depNameTemplate": "gemspec",
       "datasourceTemplate": "rubygems",
