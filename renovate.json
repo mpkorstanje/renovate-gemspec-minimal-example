@@ -14,7 +14,6 @@
       "matchStrings": [
         ".*\\.add_(:?(?<depType>.*?)_)?dependency\\s*(['\"])(?<depName>[^'\"]+)(['\"])(\\s*,\\s*(?<currentValue>(['\"])[^'\"]+['\"](\\s*,\\s*['\"][^'\"]+['\"])?))?"
       ],
-      "depNameTemplate": "rubygems",
       "datasourceTemplate": "rubygems",
       "versioningTemplate": "ruby"
     }
